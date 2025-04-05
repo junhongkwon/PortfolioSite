@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,
+    user-scalable=no">
+    
+    <title>PORTFOLIO</title>
+    
+    <!-- saved from url=(0013)about:internet-->
+    
+    <!--icon-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100&family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
+    
+    <!--user style-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+        script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+            <script>
+             AOS.init();
+            </script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/imagehover.min.css">
+    <link rel="stylesheet" type="text/css" href="demo.css" />
+	<link rel="stylesheet" type="text/css" href="hoverStyle.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('OFcP3CbPJ1KcD2Re4');
+        })();
+</script>
+</head>
+<body>
+    <div class="progress-container">
+        <div class="progress-bar" id="indicator"></div>
+    </div>
+    <header class="header-area navbar-fade" id="header">
+    <nav class="navbar"> 
+        <a class="navbar-brand" id="navbarBrand">HOME</a>
+        
+        <a class="navbar-toggler" id="toggleBtn"><i class="fa fa-bars"></i></a>
+        <div class="navbar-menu" id="menu">
+            <div class="nav-item"><a class="nav-link" id="navbarAbout">about</a></div>
+            <div class="nav-item"><a class="nav-link" id="navbarSkills">skills</a></div>
+            <div class="nav-item"><a class="nav-link" id="navbarPortfolio">PROJECT</a></div>
+            <div class="nav-item"><a class="nav-link" id="navbarContact">contact</a></div>
+        </div>
+    </nav>      
+    </header>
+    
+    <div class='section-container'>
+        <div class="welcome-area">
+            <div class="container">
+                <div class='image-slide fade'>
+                    <!-- <img src='IMAGE/FirstImage.JPG'> -->
+                    <img src="./IMAGE/FirstImage.JPG">
+                </div>
+                <div class='image-slide fade'>
+                    <img src="./IMAGE/secondImage.jpg">
+                </div>
+                <div class='image-slide fade'>
+                    <img src="./IMAGE/thirdImage.jpg">
+                </div>
+                <div class='image-slide fade'>
+                    <img src="./IMAGE/fourthImage.jpg">
+                </div>
+
+                <a class='image-prev' id='imagePrev'>◀</a>
+                <a class='image-next' id='imageNext'>▶</a>
+
+                <div class='dots'>
+                    <span class="dot" id="firstDot"></span>
+                    <span class="dot" id="secondDot"></span>
+                    <span class="dot" id="thirdDot"></span>
+                    <span class="dot" id="forthDot"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--user script-->
+    
+    <section class="about-area" id="about">
+        
+       <div class="title">
+           <a href=# onclick="return false;" class="middle">ABOUT</a>
+       </div>
+       
+       <div class="picture">
+           <img src="./IMAGE/job.jpg">
+           <div class="name">권준홍</div>
+           <div class="description">JUNIOR QA ENGINEER</div>
+       </div>
+       <div class="text">
+           <div class="intro">
+            <div class="helloStyle"
+            style="font-size: 30px;
+                        font-weight:bold;">안녕하세요!</div>
+  
+               <p id="typing"></p><br><hr width="720" color="#f6f6f6">
+               <br><div class="schoolStyle" 
+               style="font-size: 20px;
+               font-weight:bold;"> <i style="font-size: 36px;"class="fas fa-graduation-cap"></i>학력</div>
+               2014.03 ~ 2021.02 졸업 건국대학교 글로컬캠퍼스(컴퓨터공학과) <b>3.71/4.5</b><br>
+               2011.03 ~ 2014.03 졸업 경북기계공업고등학교(전자과)<br><br>
+               <hr width="720" color="#f6f6f6">
+               <br><div class="activityStyle"style="font-size: 20px;
+               font-weight:bold;"><i style="font-size: 36px;"class="fas fa-project-diagram"></i>경력사항<br></div><div class="activityMain"> <span style="font-size: 14px"></div>
+               
+                2022.07 ~ 2022.10 <span class="highlight"> 드림에이스[원티드 하계인턴십]</span>
+               <br>
+               내비게이션 장비 S/W Test Case 수행 및 테스트 수행 결과 공유<br><br>
+               2022.10 ~ 2023.08 <span
+                class="highlight">이노피아테크[정규직]</span>&nbsp;<br>
+                셋톱박스 장비 S/W Test Case 수행 및 테스트 수행 결과 공유<br>
+               <br>
+               2024.11 ~  <span
+                class="highlight">큐드[정규직]</span>&nbsp;<br>
+                내비게이션 장비 S/W Test Case 수행 및 테스트 수행 결과 공유<br><br>
+               <hr width="720" color="#f6f6f6">
+               
+               <div class="certificateStyle" 
+               style="font-size: 20px;
+               font-weight:bold;"> <i style="font-size: 36px;"class="fas fa-certificate"></i>자격증</div>
+               정보기기운용기능사(2010.08)<br>
+               전자기기기능사(2013.07)<br>
+               2종보통운전면허(2013.12)<br>
+               정보처리기사(2020.12)<br>
+           </div>
+           <hr width="720" color="#f6f6f6">
+           <ul>
+            <li>
+                <div class="info">
+                    <i class="fa fa-phone"></i> 010-5448-9627 
+                </div>
+            </li>
+            <li>
+                 <div class="info">
+                     <i class="fa fa-envelope"></i> ghosthello@naver.com
+                </div>
+            </li>  
+            <li>
+                <div class="info">
+                       <i class="fas fa-calendar-alt"></i> 15th August, 1995
+                </div>
+            </li>
+            <li>
+                <div class="info">
+                       <i class="fa fa-home"></i> 경기도 성남시 수정구 남문로 11번길 9
+                  </div>
+            </li>
+           </ul>
+           <div class="sns">
+               <a>
+                   <i class="fab fa-facebook"></i>
+               </a>
+               <a>
+                <i class="fab fa-twitter"></i>
+              </a>
+               <a>
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+               <a>
+                <i class="fab fa-google-plus-g"></i>
+               </a>
+               <a>
+                <i class="fab fa-instagram"></i>
+               </a>
+           </div>
+       </div>
+    </section>
+    <section class="skills-area" id="skills">
+        <div class="title">
+            <a href=# onclick="return false;" class="middle">SKILLS</a>
+        </div>
+        <div class="container">
+
+            <div class="item">
+                <div class="icon"><span><i class="fab fa-python"></i></i></span></div>
+                 <div class="skills">PYTHON<br>(BASIC)</div>            
+              </div>
+              <div class="rating">
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="far fa-star"></span>
+                <span class="far fa-star"></span>
+                <span class="far fa-star"></span>
+              </div> 
+          <!-- <div class="item">
+            <div class="icon"><span><i class="fas fa-robot"></i></i></span></div>
+             <div class="skills">UiPath<br>(BASIC)</div>            
+          </div>
+          <div class="rating">
+            <span class="fas fa-star"></span>
+            <span class="fas fa-star"></span>
+            <span class="far fa-star"></span>
+            <span class="far fa-star"></span>
+            <span class="far fa-star"></span>
+          </div>      -->
+          <div class="item">
+            <div class="icon"><span><i class="fab fa-js-square"></i></span></div>
+             <div class="skills">JAVASCRIPT<br>(BASIC)</div>            
+          </div>
+          <div class="rating">
+            <span class="fas fa-star"></span>
+            <span class="fas fa-star"></span>
+            <span class="far fa-star"></span>
+            <span class="far fa-star"></span>
+            <span class="far fa-star"></span>
+          </div>
+          <div class="item">
+            <div class="icon"><span><i class="fab fa-html5"></i></span></div>
+            <div class="skills">HTML5<br>(BASIC)</div>     
+          </div>
+          <div class="rating">
+            <span class="fas fa-star"></span>
+            <span class="fas fa-star"></span>
+            <span class="far fa-star"></span>
+            <span class="far fa-star"></span>
+            <span class="far fa-star"></span>
+          </div>   
+          <div class="item">
+            <div class="icon"><span><i class="fab fa-css3"></i></span></div>
+            <div class="skills">CSS3<br>(BASIC)</div>     
+          </div>
+          <div class="rating">
+            <span class="fas fa-star"></span>
+            <span class="fas fa-star"></span>
+            <span class="far fa-star"></span>
+            <span class="far fa-star"></span>
+            <span class="far fa-star"></span>
+          </div>  
+        </div>
+    </section>
+</div>
+
+    <section class="portfolio-area" id="portfolio">
+        <div class="title">
+            <a href=# onclick="return false;" class="middle">PROJECT</a>
+        </div>
+        <div class="filter">
+            <ul class="list">
+                <li class="listItem active" id="all">
+                    ALL
+                </li>
+                <li class="listItem" id="web">
+                    WEB
+                </li>
+                <li class="listItem" id="Python">
+                    Python
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="filterItem web">
+                <div class="image">
+                       <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                       <img src="./IMAGE/TYPING.jpg">;
+                </div>
+                <div class="main">
+                    TYPING GAME
+                </div>
+                <div class="sub">
+                    HTML5/JAVASCRIPT/CSS<br><br>
+                    <a href="https://drive.google.com/file/d/1Km0x-VFxN6QogbpZYqhhmdfZo5yxQjBh/view?usp=drive_link" style="color: black; font-size: 20px; font-weight: bold;">PROGRAM DEMO</a><br>
+                    <a href="https://github.com/junhongkwon/PortfolioSite/tree/main/TYPING%20GAME" style="color: black; font-size: 20px; font-weight: bold;">PROGRAM CODE</a>  
+                </div>
+                <div class="text">
+                    주어진 단어를 정확히 입력하고 엔터를 치면 점수가 올라가는 게임입니다.<br>
+                    한글/영문모드 변환이 가능하며, 우측 상단에 게임설명과 전체화면 기능도 포함되어 있습니다.<br>
+                    주어진 시간이 모두 소진되면 게임이 종료되며, 화면에는 흭득점수와 틀린횟수 그리고 정확도가 표시됩니다.
+                </div>
+            </div>
+            <div class="filterItem Python">
+                <div class="image">
+                       <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                       <img src="./IMAGE/Insta.png">;
+                </div>
+                <div class="main">
+                    INSTAGRAM AUTOMATION
+                </div>
+                <div class="sub">
+                    PYTHON/SELENIUM<br><br>
+                    <a href="https://drive.google.com/file/d/1poHyp4cerAI1BrZ2ADxHTlrphWwu6q_H/view?usp=drive_link" style="color: black; font-size: 20px; font-weight: bold;">PROGRAM DEMO</a><br>
+                    <a href="https://github.com/junhongkwon/PortfolioSite/tree/main/instaAutomation" style="color: black; font-size: 20px; font-weight: bold;">PROGRAM CODE</a>  
+                </div>
+                <div class="text">
+                아이디, 비밀번호, 해시태그, 작업횟수를 입력받은 후 인스타그램에 로그인하여 <br>
+                작업 횟수 만큼 좋아요와 랜덤으로 긍정적인 댓글을 남기는 프로그램입니다.<br>    
+                </div>
+            </div>
+            <div class="filterItem Python">
+                <div class="image">
+                       <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                       <img src="./IMAGE/JOBKOREA.png">;
+                </div>
+                <div class="main">
+                    JOBKOREA JOB INFORMATION CRAWLING
+                </div>
+                <div class="sub">
+                    PYTHON/BEAUTIFULSOUP<br><br>
+                    <a href="https://drive.google.com/file/d/1OdmPPgD-qYiJJgw4hMe5YuuhHQ4iiuAy/view?usp=drive_link" style="color: black; font-size: 20px; font-weight: bold;">PROGRAM DEMO</a><br>
+                    <a href="https://github.com/junhongkwon/PortfolioSite/tree/main/JobCrawling" style="color: black; font-size: 20px; font-weight: bold;">PROGRAM CODE</a>  
+                </div>
+                <div class="text">
+                원하는 키워드와 페이지수를 입력한 후, 잡코리아에 접속해 채용정보를 <br>
+                크롤링 해오는 프로그램 입니다.<br>    
+                </div>
+            </div>
+            <div class="filterItem Python">
+                <div class="image">
+                       <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                       <img src="./IMAGE/TistoryAutomation.png">;
+                </div>
+                <div class="main">
+                    TISTORY BLOG POSTING AUTOMATION
+                </div>
+                <div class="sub">
+                    PYTHON/SELENIUM<br><br>
+                    <a href="https://drive.google.com/file/d/1IFO--HUVXfhmm4NMwJrU9_GZKTXNmzXr/view?usp=drive_link" style="color: black; font-size: 20px; font-weight: bold;">PROGRAM DEMO</a><br>
+                    <a href="https://github.com/junhongkwon/PortfolioSite/tree/main/tistoryBlogAutomation" style="color: black; font-size: 20px; font-weight: bold;">PROGRAM CODE</a>  
+                </div>
+                <div class="text">
+                티스토리에 로그인 후, TechCrunch사이트에 접속해 메인 기사를 읽어오고 GPT API를 활용하여 <br>
+                한국어로 번역한 뒤 티스토리에 포스팅해주는 프로그램 입니다.<br>    
+                </div>
+            </div>
+            <button id="darkModeToggle" style="position: fixed; top: 10px; right: 10px; z-index: 1000;">🌙</button>
+
+            <!-- <div class="filterItem UIPATH">
+                <div class="image">
+                       <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                       <img src="./IMAGE/TE.png">;
+                </div>
+                <div class="main">
+                    SCRAPING PDF DATA
+                </div>
+                <div class="sub">
+                    UIPATH/EXCEL<br><br>
+                    <a href="https://drive.google.com/file/d/1vP0a64FSi_X3NcUOV-jeT_PxPIPc2oRj/view?usp=sharing" style="color: black; font-size: 20px; font-weight: bold;">AUTOMATION DEMO</a><br>
+                    <a href="https://github.com/junhongkwon/PortfolioSite/tree/main/UIPATH_PDFDataScraping" style="color: black; font-size: 20px; font-weight: bold;">AUTOMATION PROCESS</a>  
+                </div>
+                <div class="text">
+                    N개의 송장을 반복적으로 순회하면서 특정 정보를 Scraping해 <br>
+                    엑셀에 Scraping한 내용을 저장하는 자동화 프로그램입니다.<br>
+                    순회가 성공적으로 끝난 송장은 Successful 폴더로 이동하며, 실패한 송장은 Failed 폴더로 이동합니다.
+                </div>
+            </div>
+            <div class="filterItem UIPATH">
+                <div class="image">
+                       <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                       <img src="./IMAGE/EMAIl AUTO.jpg">;
+                </div>
+                <div class="main">
+                    EMAIL AUTOMATION
+                </div> 
+                <div class="sub">
+                    UIPATH<br><br>
+                    <a href="https://drive.google.com/file/d/1dLV2FqseqONCibz7THwFhIPztj6ZJWrw/view?usp=sharing" style="color: black; font-size: 20px; font-weight: bold;">AUTOMATION DEMO</a><br>
+                    <a href="https://github.com/junhongkwon/PortfolioSite/tree/main/UIPATH_EmailAutomation" style="color: black; font-size: 20px; font-weight: bold;">AUTOMATION PROCESS</a>  
+                </div>
+                <div class="text">
+                    수신한 메일의 제목에 포함된 단어에 따라 자동으로 Read, Save, Delete하고  <br>
+                    Forward하는 이메일 자동화 프로그램 입니다.<br>
+                    ex -> 메일의 제목에 Delete가 포함되어 있으면 해당 메일을 삭제하며,<br>
+                    Forward가 되어 있으면, 해당 메일을 Forward 합니다.
+                </div> -->
+            </div>
+        </div>
+    </section>
+    </a>
+         
+    <section class="contact-area" id="contact">
+        
+        <div class="title">
+            <a href=# onclick="return false;" class="middle">CONTACT</a>
+        </div>
+        <div class="text">
+            <div style="font-size: 20px;
+            line-height:1.9;
+            ">안녕하세요!<br> 하단에 기재된 양식을 이용해 내용을 작성하여 보내주시면 매우 감사하겠습니다!<br></div>
+            <div style="font-size: 14px;
+            line-height:1.9;
+            font-weight:bold;"
+            >
+                </div>
+        <ul>     
+            <li>
+                <div class="info">
+                
+                </div>
+            </li>        
+        </ul>
+
+       <form id="contact-form" class="fields">    
+            <input type="hidden" name="contact_number">          
+            <input class="input_namefield" name="user_name" type="text" placeholder="Name">
+            <input class="input_emailfield" name="user_email" type="email" placeholder="Email"><br>
+            <input class="input_telfield" name="user_phone" type="tel" placeholder="Phone number"><br>
+            <textarea class="input_textareafield" name="message" placeholder="Please enter your message"></textarea><br>
+            <input class="input_sendfield" name="submit" type="submit" value="SEND"> 
+        </form>
+  
+        </div>  
+    </section>
+    </div>    
+    
+    <footer class="footer-area">
+        <div class="sns">
+            <div class="item" id="facebook"><i class="fab fa-facebook-square"></i></div>
+            <div class="item" id="twitter"><i class="fab fa-twitter"></i></div>
+            <div class="item" id="linkedin"><i class="fab fa-linkedin"></i></div>
+            <div class="item" id="google"><i class="fab fa-google-plus"></i></div>
+            <div class="item" id="instagram"><i class="fab fa-instagram"></i></div>
+        </div>
+        <div class="info">
+            <p>Copyright (C) 2021 Test Corp. All rights reserved. </p>
+        </div>
+    </footer>
+
+    <div id="portfolioModal" class="modal">
+         <span class="close" id="modalClose">&times;</span>
+         <div class="container">
+             <img id="modalImage">
+             <div id="modalMain" class="modal-main"></div>
+             <div id="modalSub" class="modal-sub"></div>
+             <div id="modalText" class="modal-text"></div>
+         </div>
+
+    </div>
+    
+    <button id="go-top"><svg xmlns="http://www.w3.org/2000/svg" width="38" 
+        height="38" 
+        fill="currentColor"
+        class="bi bi-arrow-up-circle-fill" 
+        viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+      </svg>
+    </button>
+    <button id="go-bottom"><svg xmlns="http://www.w3.org/2000/svg" width="38" 
+        height="38" 
+        fill="currentColor"
+        class="bi bi-arrow-up-circle-fill" 
+        viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+      </svg>
+    </button>
+    <!-- <button id="darkLight">DARK/LIGHT</button> -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    
+  
+</body>
+</html>
