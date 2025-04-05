@@ -134,7 +134,6 @@ function removeClass(element, name){
 document.getElementById('all').addEventListener('click', filterSelection.bind(null, 'all'));
 document.getElementById('web').addEventListener('click', filterSelection.bind(null, 'web'));
 document.getElementById('Python').addEventListener('click', filterSelection.bind(null, 'Python'));
-document.getElementById('UIPATH').addEventListener('click', filterSelection.bind(null, 'UIPATH'));
 
 function viewPortfolio(event){
     var polyNode = event.target;
